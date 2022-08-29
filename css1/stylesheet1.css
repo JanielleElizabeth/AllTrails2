@@ -155,7 +155,7 @@ button{
     padding-bottom: 29px;
     width: 428px;
     margin-top:30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,6 +174,7 @@ button{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 60px;
 }
 
 .media-img{
@@ -196,6 +197,33 @@ button{
    margin: auto auto;
 }
 
+/* Horizontal Scroll*/
+
+.scrollmenu{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap
+}
+
+.scroll-card{
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    width: 375px;
+}
+
+.textbutton{
+    color: #428A13;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+/* Prefrences Button */
+
+.prefbutton{
+    margin-top: 100px;
+}
 
 
 
@@ -276,3 +304,5 @@ button{
       /* Green background */
       cursor: pointer;
   }
+
+  
