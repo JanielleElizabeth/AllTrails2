@@ -1,6 +1,10 @@
 body{
-    width: 428px;
+    width: 100%;
     margin: 19px;
+}
+
+html{
+    width: 428px;
 }
 
 /* Text Styles*/
@@ -219,6 +223,40 @@ button{
     font-weight: bold;
 
 }
+
+/* Bottom Nav Bar */
+
+.bottom-nav-icon{
+    width: 44px;
+    margin-top: 21px;
+    margin-bottom: 1px;
+
+}
+
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+    border-top: 2px;
+    border-style: solid;
+    border-color: #F1f1f1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Prefrences Button */
 
