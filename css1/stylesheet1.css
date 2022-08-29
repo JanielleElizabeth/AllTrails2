@@ -202,7 +202,8 @@ button{
 .scrollmenu{
     background-color: #ffffff;
     overflow: auto;
-    white-space: nowrap
+    white-space: nowrap;
+    margin-bottom: 60px;
 }
 
 .scroll-card{
@@ -224,26 +225,6 @@ button{
 .prefbutton{
     margin-top: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
